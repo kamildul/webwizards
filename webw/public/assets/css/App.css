@@ -1,0 +1,13 @@
+.carousel-container {
+	:global(.swiper-pagination-bullet) {
+		width: 18px;
+		height: 18px;
+		background: #afafaf;
+		opacity: 1;
+	}
+	:global(.swiper-pagination-bullet-active) {
+		background: #FF4359;
+		width: 24px;
+		height: 24px;
+	}
+}
